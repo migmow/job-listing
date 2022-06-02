@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  font-family: "Spartan", sans-serif;
+}
+.main {
+  background-color: #70a6a4;
+}
+.job-container {
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 7px 10px 0 hsla(180, 8%, 52%, 0.548);
+}
+.featured-or-new {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.featuredJob {
+  margin: 0 5px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  background-color: hsl(180, 14%, 20%);
+  border-radius: 15px;
+  color: white;
+}
+.newJob {
+  margin: 0 10px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  background-color: hsl(180, 39%, 40%);
+  border-radius: 15px;
+  color: white;
+}
+
+.job-img-container {
+  align-self: center;
+}
+
+.job-info-container {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.job-title-and-company {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.job-postedAt-information {
+  display: flex;
+}
+
+.company-title {
+  color: hsl(180, 39%, 40%);
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.job-position {
+  color: hsl(180, 14%, 20%);
+  font-weight: 700;
+  margin: 0;
+}
+
+.job-position:hover {
+  cursor: pointer;
+  color: hsl(180, 39%, 40%);
+}
+
+.info-data {
+  padding: 10px 0;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(180, 8%, 52%);
+}
+
+.filter-tablets-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto 0;
+}
+
+.filter-list {
+  margin: auto 0;
+}
+
+.filters_container span {
+  font-weight: 400;
+  background: hsl(180, 29%, 50%);
+  color: hsl(180, 35%, 22%);
+  cursor: pointer;
+  display: inline-block;
+  margin: 4px;
+  padding: 0.5em;
+  border-radius: 10%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+}
+.logo {
+  max-width: 40px;
+  display: block;
+}
+.job_postedAt_information {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.job_postedAt_information span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.hr {
+  border: 1px solid hsl(180, 29%, 50%);
+  margin: 1em auto;
+  width: 80%;
+}
+.img_and_jobs_container {
+  border-left: 5px solid #5ea6a5;
+  margin: 1rem 1rem;
+  background-color: rgb(255, 249, 238);
+  display: flex;
+  flex-direction: column;
+  border-radius: 2%;
+}

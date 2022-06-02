@@ -1,0 +1,25 @@
+.remove_btn {
+  font-size: 0.7rem;
+  background: hsl(180, 85%, 82%);
+  cursor: pointer;
+}
+.remove_btn:hover {
+  background: rgb(25, 24, 24);
+}
+.fav_item {
+  background: hsl(180, 81%, 68%);
+  display: inline-block;
+  margin: 3px;
+}
+.remove_btn,
+.fav_item {
+  font-size: 0.7rem;
+  font-weight: 800;
+  border-radius: 10px;
+  color: black;
+  padding: 3px;
+}
+.fav_container {
+  border-style: outset;
+  margin: 2rem 1rem;
+}
